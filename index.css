@@ -1,0 +1,63 @@
+html,body{
+    height: 100%;
+    font-family: Verdana, sans-serif;
+    background-color: #90CAF9;
+}
+.board-container{
+    height: 100%;
+    width:100%;
+}
+.square{
+    width:150px;
+    height: 150px;
+    border: 3px solid #039BE5;
+    font-size: 56px;
+}
+.flex-container{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.board{
+    width:468px;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.players_container{
+    width: 468px;
+    padding: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+.players{
+    display: flex;
+    flex-direction: column;
+}
+.score{
+    text-align: center;
+    font-size: 30px ;
+    font-weight: bold;
+}
+.player-name{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.title{
+    text-shadow: 0 0 3px #edc7c7, 0 0 5px #0000FF;
+    font-size: 36px;
+}
+.button{
+    font-size: 17px;
+    background-color: #2196F3;
+    border-radius: 3px;
+    border: 0;
+}
+.winner{
+    display: none;
+}
